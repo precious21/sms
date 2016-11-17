@@ -11,16 +11,11 @@
 </head>
 
 <body>
-
-  
-
-  
-
     <div class="container">
 
       <div id="login">
 
-         <form:form id="loginForm" url="/" method="post"  modelAttribute="userDto">
+         <form:form id="loginForm" action="/SMS/login" method="post"  modelAttribute="userDto">
           <fieldset class="clearfix">
             <p><span class="fontawesome-user"></span><form:input id="username" name="username" path="username" /> </p> <form:errors path="username" cssClass="errorUserName"/>
             <p><span class="fontawesome-lock"></span><form:password id="password" name="password" path="password" /></p>
