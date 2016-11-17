@@ -1,0 +1,93 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1C3345;
+	opacity:0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 6%;
+}
+
+.sidenav a {
+    padding: 0px 0px 0px 14px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white !important;
+display: block;
+transition: 0.3s;
+border-bottom: 1px solid white;
+padding-bottom: 5%;
+padding-top: 5%;  
+  font-family: "Times New Roman",Georgia, Serif;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+
+    position: absolute;
+    top: 1.5%;
+    right: 12px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.navbar-inverse {
+    background-color: #FFF !important;
+    border-color: #FFFFFF !important;
+}
+.navbar {
+    border-radius: 0px !important;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 0px solid transparent !important;
+}
+.navbar-header {
+    float: left;
+    margin-top: 0 !important;
+	height:80px;
+}
+.navbar-center{
+	position: absolute;
+text-align: center;
+margin: 37%;
+margin-top: 1.8%;
+font-size: 23px;
+	line-height: 1 !important;
+}
+.navbar-brand{
+	padding: 5px 15px !important;
+}
+.navbar-right>li a{
+	font-size: 18px;
+margin-top: 12.5%;
+float:none;
+color:black !important;
+}
+.navbar-right>li a:hover{
+	color:black !important;
+	
+}
+.navbar-nav > li > a:hover {
+color: black !important;
+}
+.menuStyling{
+	border-top:1px solid white;
+	
+}

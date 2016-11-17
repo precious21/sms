@@ -1,0 +1,131 @@
+.guestTransactionBodyClass{
+	background-color:#346b96 !important;
+}
+.pageHeading {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #1C3345;
+    padding: 10px 0px 10px 15px;
+    color: white;
+}
+.row{
+	margin:0px !important;
+}
+.searchSection{
+	padding-top:5%;
+	color:white;
+	height:150px;
+}
+.guestCode{
+width: 195px;
+height: 19px;
+color: #757575;
+font-size: 12px;
+background: #fff;
+font-family: 'OpenSansRegular';
+padding-left: 5px;
+margin-left: 5px;
+border: 1px solid #e0e0e0;
+outline: none;
+margin-bottom:20px;
+float:right;
+}
+.guestName{
+width: 195px;
+height: 19px;
+color: #757575;
+font-size: 12px;
+background: #fff;
+font-family: 'OpenSansRegular';
+padding-left: 5px;
+margin-left: 5px;
+border: 1px solid #e0e0e0;
+outline: none;
+margin-bottom:20px;
+float:right;
+}
+.searchButton{
+padding: 0px 10px !important;
+color: #fff;
+background-color: #1c3345;
+border-color: #204d74;
+font-size: 12px;
+font-family: 'OpenSansRegular';
+border-radius: 3px;
+outline: none;
+border: 0;
+height: 19px;
+margin-top: -2px;
+margin-left: -4px;
+margin-bottom:20px;
+width: 40%;
+float:right;
+}
+.tableSection{
+	background-color:#1C3345;
+	height:250px;
+	color:white;
+}
+.middeledContent{
+	text-align:center;
+}
+.tableLabels{
+	width:50%;
+}
+.row.tableSection {
+    padding-top: 6%;
+}
+.tableData .tableData:hover{
+    color: white !important;
+    cursor: none !important;
+}
+.deductionSection{
+	color:white;
+	padding-top:5%;
+	background-color:#1c3345;
+	padding-bottom:5%;
+	border-top:1px solid white; 
+}
+.searchLabels {
+    margin-left: 15%;
+}
+.deductionLabels{
+	margin-left:10%;
+}	
+
+.deductionButton{
+	padding: 0px 10px !important;
+color: #fff;
+border-color: #204d74;
+font-size: 12px;
+font-family: 'OpenSansRegular';
+border-radius: 3px;
+outline: none;
+border: 0;
+height: 19px;
+margin-top: -2px;
+margin-left: -4px;
+margin-bottom:20px;
+width: 40%;
+float:right;
+background-color:#346b96;
+}
+.successMessageAlert { 
+	background-color:#daeed3; 
+	color:#5db35c; 
+	padding:8px 5px; 
+	text-align:center; 
+	font-size:15px; 
+	border-radius:5px; 
+	border:1px solid #d9ebcd;
+	width:90% !important; 
+	margin:20px auto 0px auto !important;
+}
+.bootbox.modal.fade.in {
+    width: 40%;
+    margin: 0 auto;
+    background: white;
+    height: 130px;
+    margin-top: 15%;
+}

@@ -1,0 +1,97 @@
+body {
+ background: #0d2232 !important;
+  color: #606468;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+}
+.panel-body {
+    padding: 15px;
+	padding-bottom:70px;
+	}
+.addGuestForm{
+	
+	margin-top: 12%;
+}
+.labelWidth {
+  font-size:18px;
+  margin-bottom:10px;
+}
+.panel-title{
+	
+	font-weight: 900;
+}
+#ui-datepicker-div {
+    background: cadetblue;
+    color: white;
+    width: 150px;
+    height: 182px;
+    border-radius: 5px;
+	margin-left:1px !important;
+	padding-top:5px;
+}
+.ui-icon.ui-icon-circle-triangle-w {
+    font-size: 14px;
+    color: white;
+    margin-left: 5px !important;
+	cursor:pointer;
+}
+.ui-icon.ui-icon-circle-triangle-e {
+    font-size: 14px;
+    color: white;
+    float: right;
+    margin-right: 5px;
+	cursor:pointer;
+}
+th {
+    text-align: center;
+    width: 1%;
+	font-size:12px;
+}
+td{
+	text-align: center;
+	color:white;
+	
+}
+.ui-datepicker-title {
+    text-align: center;
+    font-size: 14px;
+	margin-top: 7px;
+}
+.ui-datepicker-week-end {
+    color: white;
+}
+th {
+    text-align: left;
+    color: white;
+}
+table {
+    background-color: transparent;
+    margin-top: 10px;
+}
+.ui-state-default {
+    color: white;
+	font-size: 11px;
+
+}
+#ui-datepicker-div {
+	display:none;
+	}
+
+.successMessageAlert { 
+	background-color:#daeed3; 
+	color:#5db35c; 
+	padding:8px 5px; 
+	text-align:center; 
+	font-size:15px; 
+	border-radius:5px; 
+	border:1px solid #d9ebcd;
+	width:90% !important; 
+	margin:20px auto 0px auto !important;
+}
+.bootbox.modal.fade.in {
+    width: 40%;
+    margin: 0 auto;
+    background: white;
+    height: 130px;
+    margin-top: 15%;
+}

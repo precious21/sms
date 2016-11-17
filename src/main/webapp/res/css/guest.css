@@ -1,0 +1,153 @@
+@CHARSET "ISO-8859-1";
+.guestBodyClass{
+	background-color:#346b96 !important;
+}
+.paddingNone{
+	padding:0px !important;
+	}
+.pageHeading {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #1C3345;
+    padding: 10px 0px 10px 15px;
+    color: white;
+}.guestTableSection {  
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    padding: 7px 0px 7px 0px;
+    background: #346b96;
+    margin-bottom: 26px;   }
+.guestSearch {
+    padding: 0px 0 15px;
+    
+}.filterButton, .filterButton:focus {
+    margin-left: 0px;
+    padding: 0px 10px !important;
+    color: #fff;
+    background-color: #1c3345;
+    border-color: #204d74;
+    font-size: 12px;
+    font-family: 'OpenSansRegular';
+    border-radius: 3px;
+    outline: none;
+    border: 0;
+    height: 19px;
+    margin-top: -2px;
+    margin-left: -4px;
+   
+}.filterCheckbox {
+    float: left;
+    margin-right: 30px;
+}input#selectall1 {
+    margin-left: 30px;
+margin-top: 25px;
+}.add_img, .edit_img, .del_img {
+    display: none;
+    float: left;
+}.pull-right {
+    float: right !important;
+}input.searchTextbox {
+    width: 195px;
+    height: 19px;
+    color: #757575;
+    font-size: 12px;
+    background: #fff;
+    font-family: 'OpenSansRegular';
+    padding-left: 15px;
+    margin-left: 5px;
+     border: 1px solid #e0e0e0;
+      outline: none;
+}
+.row{
+	margin-left:0px !important;
+		margin-right:0px !important;
+}
+    .addGuestButton{
+   
+    margin-left: 4% !important;
+    margin-top: 3%;
+ 	
+    }
+}.pagination.static {
+    font-family: 'OpenSansSemibold';
+    font-size: 12px;
+    color: #333333;
+    padding: 0px 30px;
+    margin: 0;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    color: white;
+}
+.data_driver {
+
+display: inline-block;
+position: relative;
+width: 100%;
+padding-bottom: 1px;
+}
+table.database {
+    position: relative;
+    width: 100%;
+    background: #346b96;
+    border: 1px solid white;
+}.database th.fd_col {
+    width: 90px;
+}.database th {
+    font-weight: bold;
+    height: 40px;
+   background: #1C3345;
+color: #FFF;
+    font-size: 12px;
+    font-family: 'OpenSansRegular';
+    line-height: 14px;
+    text-align: center;
+    border: 1px solid #e9e9e9;
+}
+.database td{ background: #346b96; color:white; padding:5px; font-size: 12px; font-family: 'OpenSansRegular';   text-align: center;    border: 1px solid #fff;}
+.alert-success { 
+	background-color:#daeed3; 
+	color:#5db35c; 
+	padding:8px 5px; 
+	text-align:center; 
+	font-size:12px; 
+	border-radius:5px; 
+	border:1px solid #d9ebcd;
+	width:90% !important; 
+	margin:20px auto 0px auto !important;
+}
+
+.alert-error {
+	background-color:#f2dedf; 
+	color:#de534e; 
+	padding:8px 5px; 
+	text-align:center; 
+	font-size:12px; 
+	border-radius:5px; 
+	border:1px solid #f2dedf;
+	width:90% !important; 
+	margin:20px auto 0px auto !important; 
+}
+
+ img.right {
+    padding-right: 20px;
+}img.left_arroe {
+    float: left;
+}img.right_arroe {
+    float: right;
+}input.data_check, input.data_check1, input.data_check2, input.data_check3, input.data_check4, input.data_check5, input.data_check6, .btn_vehicle {margin-top: 2px;  width: 18px;  height: 18px;  background: #fff;  border: 1px solid #bebdbd;  border-radius: 0; }
+.onoffswitch { position: relative; width: 51px;}
+.onoffswitch-checkbox { display: none;}
+.onoffswitch-label { display: block; overflow: hidden; cursor: pointer; border: 2px solid #b2b2b2; border-radius: 15px;}
+.onoffswitch-inner { display: block; width: 200%; margin-left: -100%; transition: margin 0.3s ease-in 0s;}
+.onoffswitch-inner:before, .onoffswitch-inner:after { display: block; float: left; width: 50%; height: 16px; padding: 0; line-height: 16px; font-size: 10px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold; box-sizing: border-box;}
+.onoffswitch-inner:before { content: "ON";  padding-left: 9px; background-color: #FF981D; color: #FFFFFF;}
+.onoffswitch-inner:after { content: "OFF";  padding-right: 5px; background-color: #4C4C4C; color: #000000; text-align: right;}
+.onoffswitch-switch { display: block; width: 22px; margin: -1px; background: #FFFFFF; position: absolute; top: 0; bottom: 0; right: 31px; border: 2px solid #b2b2b2; border-radius: 15px; transition: all 0.3s ease-in 0s; }
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner { margin-left: 0px; text-align:left;}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch { right: 0px;}
