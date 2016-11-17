@@ -56,7 +56,7 @@ public class AppController {
 	/*
 	 * This method will list all existing employees.
 	 */
-	@RequestMapping(value = { "/login", "/list" }, method = RequestMethod.GET)
+	@RequestMapping(value = { "/","/login", "/list" }, method = RequestMethod.GET)
 	public String getLoginForm(ModelMap model) {
 		RmsUserDto userDto=new RmsUserDto();
 		model.addAttribute("userDto", userDto);
